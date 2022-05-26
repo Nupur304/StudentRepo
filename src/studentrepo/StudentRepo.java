@@ -3,7 +3,7 @@ package studentrepo;
 /**
  *
  * @author nupur
- * Date: May 26 2022 1:36 
+ * Date: May 26 2022 1:36 pm 
  */
 public class StudentRepo {
 
@@ -12,6 +12,7 @@ public class StudentRepo {
      */
     public static void main(String[] args) {
         System.out.println("GitHub interaction");
+        StudentType std = new StudentType("Domestic", "STD-985647");
     }
     
 }
